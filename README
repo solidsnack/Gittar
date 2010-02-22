@@ -1,0 +1,7 @@
+  Creates tarballs for your project with name-version.tbz style names. The
+  name is taken to be the name of the project root directory; the version is a
+  combination of the tag and, if there are any commits after the tag, the
+  count of these commits and the hash of the last commit. (See `git describe'
+  to find out more about this style of version naming.)
+
+
