@@ -32,7 +32,7 @@ archive() {
     tbz)            archiver=bzip2;;
     tgz)            archiver=gzip;;
   esac
-  echo "Creating archive:" 2>&1
+  echo "Creating archive:" 1>&2
   echo $t
   git archive HEAD --prefix="$n"/ | $archiver > $t
 }
